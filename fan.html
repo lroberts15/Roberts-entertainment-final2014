@@ -1,0 +1,73 @@
+
+
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Swifters</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body bgcolor="black">
+
+      <header>
+      <a href="index.html" id="logo">
+        <h1>Fan Mail</h1>
+        <h2>"I like to eat a lot of cookies"
+                                      -Taylor Swift
+        </h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="fan.html">Fan Page</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+     
+      <form action="index.html" method="post">  
+        <h3 >Fan Mail</h3>
+        
+          <fieldset>
+      <legend><span class="number">1</span> Your basic info</legend>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name">
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email">
+        </fieldset>
+
+        
+        <label for="bio">Why you love Taylor?</label>
+        <textarea id="bio" name="user_bio"></textarea>
+          
+          <label for="job">How old are you?</label>
+          <select id="job" name="user_job">
+           <option value="frontend_developer">5</option>
+           <option value="php_developer">6</option>
+            <option value="rails_developer">7</option>
+          <option value="web_designer">8</option>
+          <option value="wordpress_developer">9</option>
+          <option value="andriod_developer">10</option>
+         <option value="ios_developer">11</option>
+          <option value="mobile_developer">12</option>
+          <option value="businees_developer">13</option>
+          <option value="freelancer">14</option>
+
+        </fieldset>
+        
+        <input type="submit" name="send">
+        </form> 
+
+        <footer>
+        <a href="http://twitter.com/nickrp"><img src="img/facebook.png" alt="FaceBook"  width="30px" height="50px" class="social-icon"></a>
+        <a href="http://facebook.com/nickpettit"><img src="img/twitter.png" alt="InstaGram" class="social-icon"></a>
+        <p>&copy; 2014 Taylor Swift</p>
+      </footer> 
+     
+    </body>
+</html>
